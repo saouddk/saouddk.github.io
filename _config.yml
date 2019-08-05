@@ -24,7 +24,7 @@ github_username:
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-kagami
+remote_theme: saouddk/jekyll-theme-kagami
 color_scheme: autumn
 plugins:
   - jekyll-feed
