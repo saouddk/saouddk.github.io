@@ -15,7 +15,7 @@ Software design principles aren't unlike the architectural principles of physica
 
 
 
-{% include dbl-image.html url1="/assets/img/pantheon.jpg" url2="/assets/img/oculus-pantheon2.jpg" description="The Pantheon, commissioned by Agrippa and then finished by Hadrian (120s AD), still stands today with a ~4500 ton Concrete dome held by eight barrel vaults resulting in the largest free standing unreinforced dome in the world." %}
+{% include dbl-image.html url1="/assets/img/pantheon.jpg" url2="/assets/img/oculus-pantheon2.png" description="The Pantheon, commissioned by Agrippa and then finished by Hadrian (120s AD), still stands today with a ~4500 ton Concrete dome held by eight barrel vaults resulting in the largest free standing unreinforced dome in the world." %}
 
 
 
