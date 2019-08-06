@@ -2,7 +2,7 @@
 layout: post
 title: De chao, ordo
 date: 2019-08-04
-description: 
+description:
 cover_url: post-1.jpg
 author: Saoud Khalifah # Add name author (optional)
 ---
