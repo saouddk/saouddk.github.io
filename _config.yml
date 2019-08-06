@@ -16,17 +16,20 @@
 title: An odyssey of thoughts and meditations
 email: saouddk@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is a personal blog on thoughts, perusals and experiences as an engineer and CEO of a start-up in NYC's Tech Alley by Saoud Khalifah.
+  This is a personal blog on thoughts and experiences as an engineer and CEO of a start-up in NYC's Tech Alley by Saoud Khalifah.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://saoudkhalifah.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
-github_username:
+github_username: saouddk
+author: Saoud Khalifah
+logo: /assets/img/post-2.jpg
 
 # Build settings
 markdown: kramdown
 color_scheme: autumn
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 defaults:
   - scope:
