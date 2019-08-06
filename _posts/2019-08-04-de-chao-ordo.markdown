@@ -4,6 +4,7 @@ title: De chao, ordo
 date: 2019-08-04
 description:
 cover_url: post-1.jpg
+permalink: /:year/:month/:day//de-chao-ordo
 author: Saoud Khalifah # Add name author (optional)
 ---
 
