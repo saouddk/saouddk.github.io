@@ -23,6 +23,7 @@ twitter_username:
 github_username: saouddk
 author: Saoud Khalifah
 logo: /assets/img/post-2.jpg
+google_analytics: UA-146489278-1
 
 # Build settings
 markdown: kramdown
