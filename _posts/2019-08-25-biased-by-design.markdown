@@ -6,7 +6,6 @@ description:
 cover_url: post-2.jpg
 published: true
 permalink: /:year/:month/:day/biased-by-design
-tags: thoughts artificial intelligence human bias influence biased data science
 author: Saoud Khalifah # Add name author (optional)
 ---
 
