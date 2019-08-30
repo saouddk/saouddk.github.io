@@ -2,8 +2,8 @@
 layout: page
 lang: en
 navlevel: header
-navtitle: media interviews
-permalink: /media
+navtitle: press interviews
+permalink: /press
 ---
 
 <u>BBC One - Fake Reviews on TripAdvisor</u>
