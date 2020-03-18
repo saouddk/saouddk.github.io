@@ -9,7 +9,7 @@ permalink: /:year/:month/:day/reflections
 author: Saoud Khalifah # Add name author (optional)
 ---
 
-Most of us wouldn't have predicted that in 2020, in the year of the rat, the animal that brought the bubonic plague to medieval Europe hundreds of years ago, would start off this way. A virus sweeping the world, the silent killer that causes market crashes, your favorite actor to test positive and an apocalypse looming over the horizon.
+Most of us wouldn't have predicted that in 2020, in the year of the rat, the animal that brought the bubonic plague to medieval Europe hundreds of years ago, would start this way. A virus sweeping the world, the silent killer that causes market crashes, your favorite actor to test positive and an apocalypse looming over the horizon.
 
 In the sea of darkness, it is hard to find the rays of light that bring positivity to our lives. It is in times like these, I believe that reflection is important. The best way to reflect on our current situation is to understand how our forefathers tackled such a dangerous problem and to put things in perspective.
 
