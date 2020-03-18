@@ -6,6 +6,9 @@ navtitle: press interviews
 permalink: /press
 ---
 
+<u>CNBC - Amazon's Expired Food Problem</u>
+{% include youtubeVideoPlayer.html id="jnuczi9aBqQ" t="280" %}
+
 <u>BBC One - Fake Reviews on TripAdvisor</u>
 {% include youtubeVideoPlayer.html id="Yg3f8cxrtkE" t="130" %}
 
