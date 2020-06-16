@@ -17,3 +17,4 @@ The technology that powers Guardian utilizes a lot of what we have learned and s
 
 We are very excited to give our users the confidence they need to trust Amazon, which currently is becoming the largest 3rd party marketplace in the world. Many problems ranging from counterfeits, fake products, defective products and scams in general come with the rise of 3rd party marketplaces and Guardian is here to put that in check and provide the insight that is needed when we shop online.
 
+Download our [Chrome extension](https://chrome.google.com/webstore/detail/fakespot-analyze-fake-ama/nakplnnackehceedgkgkokbgbmfghain) to start using Fakespot Guardian today for free.
