@@ -15,7 +15,7 @@ You will be able to determine the authenticity of a seller by using Fakespot Gua
 
 The Fakespot Guard badge will let you know if:
 - A seller has sold counterfeits.
-- A seller has fraud shipped, not shipped items or scammed users before.
+- A seller has committed shipping fraud by not shipping items or scamming users.
 - A seller account got hacked and is now listing fake listings.
 - Many more detection methods that utilize our powerful Fakespot artificial intelligence analysis.
 
