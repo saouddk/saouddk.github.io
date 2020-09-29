@@ -14,11 +14,11 @@ Super excited to announce that we've just released, **Fakespot Highlights**, a p
 ![Fakespot Highlights](/assets/img/fakespot_highlights.gif){:style="border: 2px solid black;"}
 
 Fakespot Highlights will organize relevant information into 5 categories:
-- *Quality* -> **What is the product's quality and characteristics?**
-- *Packaging/appearance* -> **How is the product's packaging and physical attributes?**
-- *Competitiveness* -> **How does the product stack up to the competition?**
-- *Shipping* -> **What was the general experience with the product's shipping?**
-- *Price* -> **How was/is the price?**
+- **Quality** -> *What is the product's quality and characteristics?*
+- **Packaging/appearance** -> *How is the product's packaging and physical attributes?*
+- **Competitiveness** -> *How does the product stack up to the competition?*
+- **Shipping** -> *What was the general experience with the product's shipping?*
+- **Price** -> *How was/is the price?*
 
 Highlights will also further categorize the details by sentiment with Positive, Neutral and Negative sentiments.
 
