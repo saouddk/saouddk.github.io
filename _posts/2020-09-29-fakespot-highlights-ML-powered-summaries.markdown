@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fakespot Highlights ML Powered Summaries
+title: Fakespot Highlights - ML powered summaries
 date: 2020-09-29
 description: Fakespot Highlights is now released on Fakespot.com using state of the art machine learning to summarize important points about the product
 cover_url: fakespot_highlights.gif
