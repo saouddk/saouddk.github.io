@@ -11,7 +11,7 @@ author: Saoud Khalifah # Add name author (optional)
 
 Super excited to announce that we've just released, **Fakespot Highlights**, a powerful AI generated addition to our analysis reports on Fakespot.com that consists of direct summaries of reviews that you *have* to know about before purchasing a product.
 
-![Fakespot Highlights](/assets/img/fakespot_highlights.gif)
+![Fakespot Highlights](/assets/img/fakespot_highlights.gif){:style="border: 2px solid black;"}
 
 Fakespot Highlights will organize relevant information into 5 categories:
 - Quality -> What is the product's quality and characteristics?
