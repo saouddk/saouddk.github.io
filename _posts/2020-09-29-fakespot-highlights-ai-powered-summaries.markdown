@@ -5,7 +5,7 @@ date: 2020-09-29
 description: Fakespot Highlights, now released on Fakespot.com, uses state of the art machine learning and NLP to summarize important points about a product
 cover_url: fakespot_highlights.gif
 published: true
-permalink: /:year/:month/:day/fakespot-highlights-ml-powered-summaries
+permalink: /:year/:month/:day/fakespot-highlights-ai-powered-summaries
 author: Saoud Khalifah # Add name author (optional)
 ---
 
