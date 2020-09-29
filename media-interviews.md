@@ -6,6 +6,9 @@ navtitle: press interviews
 permalink: /press
 ---
 
+<u>CNBC - Amazon's Why Amazon Has A Fake Review Problem</u>
+{% include youtubeVideoPlayer.html id="Mq_Ksga9uHY" t="22" %}
+
 <u>CNBC - Amazon's Expired Food Problem</u>
 {% include youtubeVideoPlayer.html id="jnuczi9aBqQ" t="280" %}
 
