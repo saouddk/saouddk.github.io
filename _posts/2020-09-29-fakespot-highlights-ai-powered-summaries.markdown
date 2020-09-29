@@ -16,7 +16,7 @@ Super excited to announce that we've just released, **Fakespot Highlights**, a p
 Fakespot Highlights will organize relevant information into 5 categories:
 - Quality -> What is the product's quality and characteristics?
 - Packaging/appearance -> How is the product's packaging and physical attributes?
-- Competitiveness -> How competitive is the product compared to competitors' products?
+- Competitiveness -> How does the product stack up to the competition?
 - Shipping -> What was the general experience with the product's shipping?
 - Price -> How was the price?
 
@@ -26,4 +26,4 @@ This new feature is powered by multiple machine learned models, both supervised 
 
 To try Fakespot Highlights, download our [Chrome extension](https://chrome.google.com/webstore/detail/fakespot-analyze-fake-ama/nakplnnackehceedgkgkokbgbmfghain). After installing the extension, browse to a product page on Amazon.com and click to Analyze or Reanalyze. I would also recommend analyzing a product you've owned for a while and see if the Highlights match your personal experience!
 
-We are always excited to build products and features that help our users in getting the best eCommerce experience using our platform. This feature is currently in Beta but we are constantly improving the technology in an evolutionary manner. If you have any suggestions, do not hesitate to get in [touch with me](mailto:saoud@fakespot.com).
+We are always excited to build products and features that help our users in getting the best eCommerce experience. This feature is currently in Beta but we are constantly improving the technology in an evolutionary manner. If you have any suggestions, do not hesitate to get in [touch with me](mailto:saoud@fakespot.com).
