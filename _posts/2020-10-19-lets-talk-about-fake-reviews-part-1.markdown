@@ -11,15 +11,17 @@ author: Saoud Khalifah # Add name author (optional)
 
 Fake reviews garner much attention and controversy worldwide. It is *the* primary reason Fakespot was created. Fakespot was launched after I was scammed on Amazon with a product that had hundreds of fake reviews.
  
- When reading the reviews for this product, it was obvious that the seller had implanted fake reviews with the use of bots, spiced up with some human input. The product was freshly launched and it had *hundreds of 5 star reviews* in a matter of hours with a completely no name brand! 
+ When reading the reviews for this product, it was obvious that the seller had implanted fake reviews with the use of bots, spiced up with some human input. The product was freshly launched and it had *hundreds of 5 star reviews* in a matter of hours for a completely no name brand! 
 
 I was already familiar with black hat techniques fraudsters use to increase their listings' rankings due to my security background, a passion I developed in my early teenage years. In case you were wondering... Yes, I was a hacker.
 
 At the age of 18, I submitted my first bug bounties to the Zero Day Initiative, a pioneer of the bug bounty programs when there were none. The first vulnerability I discovered was a **Microsoft PowerPoint** buffer overflow. My research later lead me to finding bugs in software ranging from **Adobe PDF Reader**, **WinAmp**, **Foxit**, **VLC Player** to some more **Microsoft** (*check out my publicly published vulnerabilities/exploits [here](https://www.exploit-db.com/search?e_author=skd) if you're curious*). 
 
-![The Metasploit exploit for the PowerPoint vulnerability I found way back in the day](/assets/img/metasploit_pp_exploit.png){:style="border: 2px solid black; max-width: 700px;"}
+{% figure caption:"The Metasploit module for the PowerPoint vulnerability I found way back in the day." %}
+![The Metasploit module for the PowerPoint vulnerability I found way back in the day.](/assets/img/metasploit_pp_exploit.png){:style="border: 2px solid black; max-width: 700px;"}
+{% endfigure %}
 
-*Funny story: I applied for a Microsoft internship at the time I received the payout for the bug bounty. Back in those days, Microsoft was notorious for "hating" on anyone that would find weaknesses in their products especially security researchers. Needless to say, they immediately rejected my application. It just shows how much Microsoft has changed since then.*
+*Funny story: I applied for a Microsoft internship at the time I received the payout for the bug bounty. Back in those days, Microsoft was notorious for "hating" on anyone who would find weaknesses in their products especially security researchers. Needless to say, they immediately rejected my application. It just shows how much Microsoft has changed since then.*
 
 My love for security has taught me that, reverse engineering to the lowest level is always critical. Especially, if you want to understand the fundamentals and scope to the problem you are encountering. That mindset helped me discover a completely different class of vulnerabilities altogether, the social context vulnerabilities in eCommerce: **fake reviews** and many others.
 
@@ -27,19 +29,25 @@ Fakespot was initially built to automate the process of analyzing the trustworth
 
 Before diving in to fake reviews and eCommerce fraud, let's talk about eCommerce and take a look at the total volume and growth of sales:
 
+{% figure caption:"eCommerce past years growth and forecast for 2021 - Source: Shopify" %}
 ![eCommerce past years growth and forecast for 2021 - Source: Shopify](/assets/img/shopify_sales_graph.png)
+{% endfigure %}
 
 eCommerce sales are forecast to be close to *$4 trillion dollars* this year. That is *nearly 20%* of the GDP for the United States in 2019 alone. These numbers are astonishing and showcase the vast opportunities in eCommerce. 
 
 More and more sales happen online in the year of 2020. We can only see eCommerce gobbling up even more sales from brick and mortal retail as consumers work from home in quarantine. This is indeed the era of the *digital gold rush*. **Make no mistake, it also the era of the digital Wild West.**
 
+{% figure caption:"That's the truth, Clint." %}
 ![That's the truth, Clint.](/assets/img/wild_west_meme.jpg)
+{% endfigure %}
 
 Let's dive into trends we see with fake reviews.
 
 Fakespot has analyzed over **8 billion reviews**, **1 billion reviewers** and served over **20 million users** visiting **fakespot.com**. From our analysis, we can clearly understand the trends that show the increase in fraud over the last 3 years with each month in comparison:
 
+{% figure caption:"The monthly average of analyses that had >= 30% unreliable reviews - Source: Fakespot" %}
 ![The monthly average of analyses that had >= 30% unreliable reviews - Source: Fakespot](/assets/img/fakespot_avg_graph.png){:style="border: 2px solid black;"}
+{% endfigure %}
 
 The data unveils the whole story for the trend of fake reviews. We have comparable rises each year in the amount of unreliable reviews. 
 
