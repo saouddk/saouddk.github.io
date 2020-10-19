@@ -32,6 +32,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-figure
+  - jekyll-sitemap
 
 defaults:
   - scope:
