@@ -9,7 +9,7 @@ permalink: /:year/:month/:day/lets-talk-about-fake-reviews-part-1
 author: Saoud Khalifah # Add name author (optional)
 ---
 
-Fake reviews garner much attention and controversy worldwide. It is *the* primary reason Fakespot was created. Fakespot was launched after being scammed on Amazon with a product that had hundreds of fake reviews.
+Fake reviews garner much attention and controversy worldwide. It is *the* primary reason Fakespot was created. Fakespot was launched after I was scammed on Amazon with a product that had hundreds of fake reviews.
  
  When reading the reviews for this product, it was obvious that the seller had implanted fake reviews with the use of bots, spiced up with some human input. The product was freshly launched and it had *hundreds of 5 star reviews* in a matter of hours with a completely no name brand! 
 
