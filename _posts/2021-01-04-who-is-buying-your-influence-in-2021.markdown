@@ -33,8 +33,8 @@ Influence.
 The results:  
 [**Pay to get 5 star reviews with Amazon Vine program**](https://en.wikipedia.org/wiki/Amazon_Vine)  
 [**Amazon Influencer program**](https://www.businessinsider.com/amazon-influencer-how-to-make-money-2019-2)  
-[**Amazon Influencer army**](https://gizmodo.com/whats-an-amazon-fc-ambassador-and-are-they-okay-1837274685)
-
+[**Amazon Influencer army**](https://gizmodo.com/whats-an-amazon-fc-ambassador-and-are-they-okay-1837274685)  
+[**Walmart is seeking to increase their stake in TikTok**](https://www.cnet.com/news/tiktok-sale-deadline-elapses-as-negotiations-with-us-continue/)
 
 An army of influencers fighting under the banner of the wronged and the oppressed.
 
