@@ -6,6 +6,15 @@ navtitle: press interviews
 permalink: /press
 ---
 
+<u>Why Products Sold On Instagram, TikTok May Not Be What They Seem</u>
+{% include youtubeVideoPlayer.html id="pBqLKZRDtqs" t="0" %}
+
+<u>Cheddar - Fakespot Looks to Protect Consumers From Themselves During Holiday Shopping Season</u>
+<div class="resp-container"><iframe class="resp-iframe" src="https://cheddar.com/media/fakespot-looks-to-protect-consumers-from-themselves-during-holiday-shopping-season/player?autoplay=false" frameborder="0" width="700"
+            height="480"
+            frameborder="0"
+            allowfullscreen=""></iframe></div>
+
 <u>CNBC - Amazon's Why Amazon Has A Fake Review Problem</u>
 {% include youtubeVideoPlayer.html id="Mq_Ksga9uHY" t="15" %}
 
