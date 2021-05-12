@@ -9,7 +9,7 @@ permalink: /:year/:month/:day/amazon-fake-review-data-breach
 author: Saoud Khalifah # Add name author (optional)
 ---
 
-The recent [data leak report](https://www.safetydetectives.com/blog/amazon-reviews-leak-report/) exposing millions of professional reviewers and sellers engaging in fake review fraud did not surprise us at all at Fakespot. 
+The recent [data leak report](https://www.safetydetectives.com/blog/amazon-reviews-leak-report/) exposing millions of records incriminating professional reviewers and sellers engaging in fake review fraud did not surprise us at all at Fakespot. 
 
 We've seen Facebook groups, WhatsApp groups, WeChat and many other social platforms hosting the meeting grounds for unscrupulous sellers/agencies/brands to get in touch with folks that would write reviews for there products, obviously in exchange for compensation. 
 
