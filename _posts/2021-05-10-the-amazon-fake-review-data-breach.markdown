@@ -11,7 +11,7 @@ author: Saoud Khalifah # Add name author (optional)
 
 The recent [data leak report](https://www.safetydetectives.com/blog/amazon-reviews-leak-report/) exposing millions of records incriminating professional reviewers and sellers engaging in fake review fraud did not surprise us at all at Fakespot. 
 
-We've seen Facebook groups, WhatsApp groups, WeChat and many other social platforms hosting the meeting grounds for unscrupulous sellers/agencies/brands to get in touch with folks that would write reviews for there products, obviously in exchange for compensation. 
+We've seen Facebook groups, WhatsApp groups, WeChat and many other social platforms hosting the meeting grounds for unscrupulous sellers/agencies/brands to get in touch with folks that would write reviews for their products, obviously in exchange for compensation. 
 
 We first detected the first signs of these types of promotional reviews in the tail end of 2015 and they exploded in volume by 2016 and 2017. The incentivized reviews had disclaimers that mentioned the review authors received products for free/compensation in exchange for writing the review. The amount of these types of compensated reviews reached epidemic levels and Amazon had to react. Amazon officially banned any reviews with text mentioning that kind of disclaimer in the late months of 2016 by doing specific keyword scanning within submitted reviews. The ripple effect of this ban is clearly seen today with social media platforms ending up hosting the subterfuge of Amazon sellers to obtain fake reviews.
 
