@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Truth behind the Stars
+title: The Truth Behind the Stars
 date: 2021-08-24
 description: Are those stars trustworthy?
 cover_url: north_star.jpg
