@@ -57,4 +57,4 @@ If you have used Amazon (or other equally sized behemoths) for the last 20 years
 
 *When was the last time information asymmetry affected you?*
 
-**Try Fakespot today and become a more informed consumer when shopping online, download our [Chrome extension](https://chrome.google.com/webstore/detail/fakespot-analyze-fake-ama/nakplnnackehceedgkgkokbgbmfghain), [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/fakespot-fake-reviews-amazon/), [iOS app](https://apps.apple.com/us/app/fakespot-secure-shopping/id1162831562) or visit us at [fakespot.com](https://www.fakespot.com).**
+**Try Fakespot today and become a more informed consumer when shopping online, download our [Chrome extension](https://chrome.google.com/webstore/detail/fakespot-analyze-fake-ama/nakplnnackehceedgkgkokbgbmfghain), [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/fakespot-fake-reviews-amazon/) or visit us at [fakespot.com](https://www.fakespot.com).**
