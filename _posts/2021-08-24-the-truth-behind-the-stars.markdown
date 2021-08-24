@@ -1,11 +1,11 @@
 ---
 layout: post
-title: The Truth is in the Stars
+title: The Truth behind the Stars
 date: 2021-08-24
 description: Are those stars trustworthy?
 cover_url: north_star.jpg
 published: true
-permalink: /:year/:month/:day/the-truth-is-in-the-stars
+permalink: /:year/:month/:day/the-truth-behind-the-stars
 author: Saoud Khalifah # Add name author (optional)
 ---
 
