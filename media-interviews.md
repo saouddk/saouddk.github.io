@@ -2,7 +2,7 @@
 layout: page
 lang: en
 navlevel: header
-navtitle: press interviews
+navtitle: press
 permalink: /press
 ---
 
