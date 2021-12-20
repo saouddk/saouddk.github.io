@@ -6,6 +6,10 @@ navtitle: press
 permalink: /press
 ---
 
+<u>Mashable - Can you trust online reviews</u>
+<div class="resp-container">
+<iframe class="resp-iframe" src="https://vdist.aws.mashable.com/cms/2021/12/ccc90d77-97d6-8da0/mp4/1080.mp4" frameborder="0" scrolling="auto"></iframe></div>
+
 <u>Good Morning America (ABC) - Fake vaccine cards</u>
 <div class="resp-container"><iframe class="resp-iframe" src="https://www.goodmorningamerica.com/video/embed/79676037" frameborder="0" width="700"
             height="480"
