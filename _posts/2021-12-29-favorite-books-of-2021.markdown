@@ -34,7 +34,7 @@ Notes:
 
 I have read this book previously in excerpts during high school (as probably some of you have) but never gave it a thorough examination from start to finish that it deserved. It's a good thing I did.
 
-The book has been quoted by Winston Churchill and many other preeminent leaders of our times due to its highly influential portrayal of human ideology, desire and spirit. The primary session here is: Humans and their behaviors have remained unchanged even over 2,400 years later.
+The book has been quoted by Winston Churchill and many other preeminent leaders of our times due to its highly influential portrayal of human ideology, desire and spirit. The key lesson here is: Humans and their behaviors have remained unchanged even over 2,400 years later.
 
 Notes:
 - Pericles' Funeral Oration was beautiful. I was quite surprised by how Pericles could simulate other peoples behaviors and interpretations of statements he was making so as to prevent any consequential actions.
