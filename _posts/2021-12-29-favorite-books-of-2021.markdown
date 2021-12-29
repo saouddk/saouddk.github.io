@@ -32,7 +32,7 @@ Notes:
 
 ![History Of The Peloponnesian War](/assets/img/hist.png){:style="width: 300px;"}
 
-I have read this book previously in excerpts during high school (as probably some of you have) but never gave it a thorough examination from start to finish that it deserved. It's a good thing I did.
+I have read this book previously in excerpts during high school (as some of you probably have) but never gave it a thorough examination from start to finish that it deserved. It's a good thing I did.
 
 The book has been quoted by Winston Churchill and many other preeminent leaders of our times due to its highly influential portrayal of human ideology, desire and spirit. The key lesson here is: Humans and their behaviors have remained unchanged even over 2,400 years later.
 
