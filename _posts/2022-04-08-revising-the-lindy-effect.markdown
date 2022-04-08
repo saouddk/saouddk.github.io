@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Revising the Lindy Effect
+title: Revising the Lindy Effect for Trust and Entropy
 date: 2022-04-08
 description: 
 cover_url: hourglass.jpeg
 published: true
-permalink: /:year/:month/:day/revising-the-lindy-effect
+permalink: /:year/:month/:day/revising-the-lindy-effect-for-trust-and-entropy
 author: Saoud Khalifah # Add name author (optional)
 ---
-The Lindy effect is an interesting phenomenon in the sphere of the intangible that is technology. The longer an idea or technology survives through utility or other actions then it is highly probable that the remaining life expectancy is extended. This increased life expectancy may be due to economies of scale, resilience to change, competitiveness, usefulness and much more. As such, the concept describes the link between the age of some non-perishable items and its future life expectancy with the acknowledgement that it mathematically follows the Pareto 80/20 distribution.
+The Lindy Effect is an interesting phenomenon in the sphere of the intangible that is technology. The longer an idea or technology survives through utility or other actions then it is highly probable that the remaining life expectancy is extended. This increased life expectancy may be due to economies of scale, resilience to change, competitiveness, usefulness and much more. As such, the concept describes the link between the age of some non-perishable items and its future life expectancy with the acknowledgement that it mathematically follows the Pareto 80/20 distribution.
 
 We are witnessing this effect everywhere around us, especially, as technology and platforms take over our lives. Examples include your smart phone, protocols used by the software on your smart phone and the hardware chips that are within it. It's highly unlikely you will stop using your smart phone in the near future, or that the software developers will stop using TCP/IP for intermachine network transmission or that Random Access Memory (RAM) chips will become obsolete as the memory vector. Even cryptocurrencies such as Bitcoin are proving Lindy's point. 
 
