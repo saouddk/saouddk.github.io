@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Revising the Lindy Effect for Trust and Entropy
+title: Revising the Lindy Effect
 date: 2022-04-11
 description: 
 cover_url: hourglass.jpeg
 published: true
-permalink: /:year/:month/:day/revising-the-lindy-effect-for-trust-and-entropy
+permalink: /:year/:month/:day/revising-the-lindy-effect
 author: Saoud Khalifah # Add name author (optional)
 ---
 The Lindy Effect is an interesting phenomenon in the sphere of the intangible that is technology. The longer an idea or technology survives through utility or other actions then it is highly probable that the remaining life expectancy is extended. This increased life expectancy may be due to economies of scale, resilience to change, competitiveness, usefulness and much more. As such, the concept describes the link between the age of some non-perishable items and its future life expectancy with the acknowledgement that it mathematically follows the Pareto 80/20 distribution.
