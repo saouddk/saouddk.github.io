@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Revising the Lindy Effect for Trust and Entropy
-date: 2022-04-08
+date: 2022-04-11
 description: 
 cover_url: hourglass.jpeg
 published: true
