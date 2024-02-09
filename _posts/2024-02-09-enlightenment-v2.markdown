@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Enlightenment v2 - The thesis for and against AI
+title: Enlightenment 2.0 - The thesis for and against AI
 date: 2024-02-09
 description: 
 cover_url: dm.jpg
