@@ -19,7 +19,7 @@ gem 'kramdown-parser-gfm'
 gem 'jekyll-figure'
 gem 'jekyll-sitemap'
 
-gem 'concurrent-ruby', '~> 1.1.9'
+gem 'concurrent-ruby', '~> 1.1.10'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
