@@ -9,9 +9,9 @@
   <meta name="description" content="I am excited to announce that our Fakespot Chrome extension is now able to detect fraudulent, bot, fake and counterfeit sellers on all the English based eBay...">
 
   
-  <link rel="stylesheet" href="/assets/styles/core.css?v=20240828102513">
-  <link rel="stylesheet" href="/assets/styles/fontello.css?v=20240828102513">
-  <link rel="stylesheet" href="/assets/styles/highlighting/autumn.css?v=20240828102513">
+  <link rel="stylesheet" href="/assets/styles/core.css?v=20250519145634">
+  <link rel="stylesheet" href="/assets/styles/fontello.css?v=20250519145634">
+  <link rel="stylesheet" href="/assets/styles/highlighting/autumn.css?v=20250519145634">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
@@ -46,25 +46,49 @@
 
 <main class="page-content" aria-label="Content">
     <div class="wrapper" style="max-width: 1150px">
-        <nav class="site-nav">
-  
-  <a class="page-link" href="/" >Home</a>
-  
-  <a class="page-link" href="/about" >about</a>
-  
-  <a class="page-link" href="/press" >press</a>
-  
-  <a class="page-link" href="/music" >music</a>
-  
-  <a class="page-link" href="https://github.com/saouddk" >Code</a>
+        <header class="site-header">
+  <div class="header-container">
+    <div class="header-content">
+      <a class="site-title" href="/">Saoud Khalifah&#39;s Blog</a>
+      
+      <h1 class="post-title baseline-fix" itemprop="name headline">Fakespot now supports eBay</h1>
+      
+    </div>
+    <div class="profile-image">
+      <a href="/about">
+        <img src="/assets/img/sk.jpeg" alt="Saoud Khalifah" />
+      </a>
+    </div>
+  </div>
+</header>
+
+<nav class="site-nav">
+  <div class="nav-container">
+    <button class="hamburger-menu">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </button>
+    
+    <ul class="nav-list">
+      <li class="nav-item"><a class="page-link" href="/">Home</a></li>
+      
+      
+      <li class="nav-item"><a class="page-link" href="/about">about</a></li>
+      
+      <li class="nav-item"><a class="page-link" href="/press">press</a></li>
+      
+      <li class="nav-item"><a class="page-link" href="/music">music</a></li>
+      
+      <li class="nav-item"><a class="page-link" href="/subscribe">subscribe</a></li>
+      
+      <li class="nav-item"><a class="page-link" href="https://github.com/saouddk">Code</a></li>
+    </ul>
+  </div>
 </nav>
 
-<article class="post" lang="en" itemscope itemtype="http://schema.org/BlogPosting" >
 
-<header class="post-header">
-    <a class="site-title" href="/">Saoud Khalifah&#39;s Blog</a>
-    <h1 class="post-title baseline-fix" itemprop="name headline">Fakespot now supports eBay</h1>
-</header>
+<article class="post" lang="en" itemscope itemtype="http://schema.org/BlogPosting" >
 
 
 <div class="post-cover" aria-label="Cover">
@@ -74,7 +98,6 @@
     <div class="cover-meta">
 </div>
 </div>
-
 
 
 <div class="post-content" itemprop="articleBody">
@@ -98,6 +121,22 @@
 
 </div>
 
+<!-- Add subscription form -->
+<!-- Email Subscription Form -->
+
+<div class="subscription-container">
+  <h3>Subscribe to my blog</h3>
+  <p>Get new posts delivered directly to your inbox.</p>
+  <form action="https://saoudkhalifah.substack.com/subscribe" method="post" target="_blank">
+    <div class="form-group">
+      <input type="email" name="email" placeholder="Your email address" required>
+      <button type="submit">Subscribe</button>
+    </div>
+    <p class="form-footer">No spam. Unsubscribe anytime.</p>
+  </form>
+</div>
+ 
+
 <footer class="post-footer">
     <div class="post-meta">
          <time datetime="2020-08-03T00:00:00-04:00" itemprop="datePublished">Aug 3, 2020</time> 
@@ -109,6 +148,51 @@
 
 
 </article>
+
+<!-- Add floating subscription box -->
+
+<div id="floating-subscribe" class="floating-subscribe">
+  <div class="floating-subscribe-content">
+    <button class="close-button" onclick="closeSubscribeBox()">&times;</button>
+    <h4>Enjoy this post?</h4>
+    <p>Subscribe to get new content in your inbox.</p>
+    <form action="https://saoudkhalifah.substack.com/subscribe" method="post" target="_blank">
+      <div class="form-group">
+        <input type="email" name="email" placeholder="Your email address" required>
+        <button type="submit">Subscribe</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script>
+  // Show the floating subscribe box after scrolling 60% of the page
+  window.addEventListener('scroll', function() {
+    var scrollPosition = window.scrollY;
+    var pageHeight = document.body.scrollHeight;
+    var windowHeight = window.innerHeight;
+    var scrollPercentage = (scrollPosition / (pageHeight - windowHeight)) * 100;
+    
+    if (scrollPercentage > 60) {
+      document.getElementById('floating-subscribe').classList.add('visible');
+    }
+  });
+  
+  // Function to close the subscribe box
+  function closeSubscribeBox() {
+    document.getElementById('floating-subscribe').classList.remove('visible');
+    // Set a cookie to remember that the user closed the box
+    document.cookie = "subscribeBoxClosed=true; max-age=604800"; // 7 days
+  }
+  
+  // Check if the user has previously closed the box
+  window.addEventListener('load', function() {
+    if (document.cookie.indexOf('subscribeBoxClosed=true') !== -1) {
+      document.getElementById('floating-subscribe').style.display = 'none';
+    }
+  });
+</script>
+ 
 
     </div>
     <script type="text/javascript">
@@ -143,7 +227,7 @@
             </a>
         </div>
         <div class="credits">
-            2024 © Saoud Khalifah
+            2025 © Saoud Khalifah
         </div>
     </div>
 
@@ -163,6 +247,8 @@
     })(Array.prototype.slice.call(document.getElementsByClassName('baseline-fix')));
 </script>
 
+
+<script src="/assets/js/main.js"></script>
 
 </body>
 
