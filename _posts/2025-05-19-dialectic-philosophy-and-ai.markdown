@@ -8,12 +8,12 @@ published: true
 permalink: /:year/:month/:day/dialectic-philosophy-and-ai
 author: Saoud Khalifah # Add name author (optional)
 ---
-In my recent re-reading of Plato's *The Republic*, the metaphor of a bridge spanning the visible world of sense perceptions, as governed by space and time, and the invisible world of perfect forms felt particularly resonant. It offers a clear analogy to how we might improve AI systems in the pursuit of what could be called "true" intelligence.
+In my recent re-reading of Plato's *The Republic*, the metaphor of a bridge spanning the visible world of sense perceptions, as governed by space and time, and the invisible wo\rld of perfect forms felt particularly resonant. It offers a clear analogy to how we might improve AI systems in the pursuit of what could be called "true" intelligence.
 
 This bridge evokes the parallel between dialectic and algorithms. Dialectic is a distinctly human process: a dialogue that tests and interrogates ideas to uncover deeper truths. Algorithms, by contrast, are sequences of computational steps designed to produce a conclusion or output. 
 
 {% figure caption:"The process comparison between dialectic and algorithms" %}
-![Dialectic_and_Algorithms](/assets/img/dialectic_algo.png){:style="max-width: 700px;"}
+![Dialectic_and_Algorithms](/assets/img/dialectic_algo.png){:style="max-width: 390px;"}
 {% endfigure %}
 
 This analogy also extends naturally to modern machine learning techniques. 
