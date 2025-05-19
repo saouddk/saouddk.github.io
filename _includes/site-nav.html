@@ -1,8 +1,18 @@
 <nav class="site-nav">
-  {% assign sorted_pages = site.pages | where_exp: "page", "page.navlevel == 'header'" | sort: "position" %}
-  <a class="page-link" href="/" >Home</a>
-  {% for my_page in sorted_pages %}
-  <a class="page-link" href="{{ my_page.url | relative_url }}" >{{ my_page.navtitle | default: my_page.title | escape }}</a>
-  {% endfor %}
-  <a class="page-link" href="https://github.com/saouddk" >Code</a>
+  <div class="nav-container">
+    <button class="hamburger-menu">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </button>
+    
+    <ul class="nav-list">
+      <li class="nav-item"><a class="page-link" href="/">Home</a></li>
+      {% assign sorted_pages = site.pages | where_exp: "page", "page.navlevel == 'header'" | sort: "position" %}
+      {% for my_page in sorted_pages %}
+      <li class="nav-item"><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.navtitle | default: my_page.title | escape }}</a></li>
+      {% endfor %}
+      <li class="nav-item"><a class="page-link" href="https://github.com/saouddk">Code</a></li>
+    </ul>
+  </div>
 </nav>

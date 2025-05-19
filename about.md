@@ -6,4 +6,14 @@ navtitle: about
 permalink: /about
 ---
 
-Personal blog on thoughts and experiences as a software maker. Enjoy writing on a variety of topics but most of my interests lie in software, philosophy, artificial intelligence, music and business leadership.
+Welcome to my personal blog, where I share my thoughts and experiences as a tech entrepreneur and software creator.
+
+I was the Founder & CEO of Fakespot (acquired by Mozilla), and before that, I worked at Goldman Sachs. 
+
+I write on a range of topics, with my core interests being software, philosophy, artificial intelligence, and startups.
+
+
+
+
+
+

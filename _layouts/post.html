@@ -1,14 +1,26 @@
 ---
 layout: default
 ---
+{% include header.html %}
 {% include site-nav.html %}
+
 <article class="post" lang="{{ page.lang | default: site.lang | default: "en" }}" itemscope itemtype="http://schema.org/BlogPosting" >
 
-{% include header.html %}
+{% if page.cover_url %}
+<div class="post-cover" aria-label="Cover">
+    <div class="post-cover-wrapper">
+        <img src="/assets/img/{{ page.cover_url }}" alt="" />
+    </div>
+    <div class="cover-meta">{{ page.cover_meta | markdownify }}</div>
+</div>
+{% endif %}
 
 <div class="post-content" itemprop="articleBody">
     {{ content }}
 </div>
+
+<!-- Add subscription form -->
+{% include subscribe.html %}
 
 <footer class="post-footer">
     <div class="post-meta">
@@ -29,3 +41,6 @@ layout: default
 {% include disqus.html %}
 {% endif %}
 </article>
+
+<!-- Add floating subscription box -->
+{% include floating-subscribe.html %}

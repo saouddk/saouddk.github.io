@@ -1,13 +1,17 @@
-<header class="post-header">
-    <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-    <h1 class="post-title baseline-fix" itemprop="name headline">{{ page.title | escape | replace: "​", "<wbr>" }}</h1>
-</header>
-
-{% if page.cover_url %}
-<div class="post-cover" aria-label="Cover">
-    <div class="post-cover-wrapper">
-        <img src="/assets/img/{{ page.cover_url }}" alt="" />
+<header class="site-header">
+  <div class="header-container">
+    <div class="header-content">
+      <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+      {% if page.title %}
+      <h1 class="post-title baseline-fix" itemprop="name headline">{{ page.title | escape | replace: "​", "<wbr>" }}</h1>
+      {% else %}
+      <p class="site-description">Thoughts on AI, philosophy, and tech</p>
+      {% endif %}
     </div>
-    <div class="cover-meta">{{ page.cover_meta | markdownify }}</div>
-</div>
-{% endif %}
+    <div class="profile-image">
+      <a href="/about">
+        <img src="/assets/img/sk.jpeg" alt="Saoud Khalifah" />
+      </a>
+    </div>
+  </div>
+</header>

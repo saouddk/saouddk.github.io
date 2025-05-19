@@ -41,7 +41,7 @@ article {
     }
   }
 
-  h3::before { content: "##"; }
+  h3::before { content: ""; }
   h4::before { content: "###"; }
   h5::before { content: "####"; }
   h6::before { content: "#####"; }
@@ -145,6 +145,7 @@ article {
 .post-title {
   word-break: keep-all;
   margin-top: -0.5 * $font-size;
+  color: #ffffff;
 }
 
 .post-cover {

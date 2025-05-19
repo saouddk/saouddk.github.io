@@ -1,0 +1,14 @@
+<!-- Email Subscription Form -->
+{% if site.newsletter.enabled %}
+<div class="subscription-container">
+  <h3>{{ site.newsletter.title }}</h3>
+  <p>{{ site.newsletter.description }}</p>
+  <form action="{{ site.newsletter.form_action }}" method="post" target="_blank">
+    <div class="form-group">
+      <input type="email" name="email" placeholder="Your email address" required>
+      <button type="submit">Subscribe</button>
+    </div>
+    <p class="form-footer">No spam. Unsubscribe anytime.</p>
+  </form>
+</div>
+{% endif %} 

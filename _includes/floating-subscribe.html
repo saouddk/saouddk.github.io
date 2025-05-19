@@ -1,0 +1,43 @@
+{% if site.newsletter.enabled %}
+<div id="floating-subscribe" class="floating-subscribe">
+  <div class="floating-subscribe-content">
+    <button class="close-button" onclick="closeSubscribeBox()">&times;</button>
+    <h4>Enjoy this post?</h4>
+    <p>Subscribe to get new content in your inbox.</p>
+    <form action="{{ site.newsletter.form_action }}" method="post" target="_blank">
+      <div class="form-group">
+        <input type="email" name="email" placeholder="Your email address" required>
+        <button type="submit">Subscribe</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script>
+  // Show the floating subscribe box after scrolling 60% of the page
+  window.addEventListener('scroll', function() {
+    var scrollPosition = window.scrollY;
+    var pageHeight = document.body.scrollHeight;
+    var windowHeight = window.innerHeight;
+    var scrollPercentage = (scrollPosition / (pageHeight - windowHeight)) * 100;
+    
+    if (scrollPercentage > 60) {
+      document.getElementById('floating-subscribe').classList.add('visible');
+    }
+  });
+  
+  // Function to close the subscribe box
+  function closeSubscribeBox() {
+    document.getElementById('floating-subscribe').classList.remove('visible');
+    // Set a cookie to remember that the user closed the box
+    document.cookie = "subscribeBoxClosed=true; max-age=604800"; // 7 days
+  }
+  
+  // Check if the user has previously closed the box
+  window.addEventListener('load', function() {
+    if (document.cookie.indexOf('subscribeBoxClosed=true') !== -1) {
+      document.getElementById('floating-subscribe').style.display = 'none';
+    }
+  });
+</script>
+{% endif %} 
