@@ -943,26 +943,89 @@ body {
   color: white;
   padding: 3rem 0;
   margin-top: 4rem; }
-  .site-footer .footer-content {
-    max-width: 800px;
+  .site-footer .wrapper {
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 0 1rem;
-    text-align: center; }
+    padding: 0 2rem; }
+  .site-footer .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%; }
+  .site-footer .footer-subscribe {
+    max-width: 450px;
+    margin-bottom: 2rem;
+    width: 100%; }
+    .site-footer .footer-subscribe h4 {
+      font-size: 1.3rem;
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+      color: white; }
+    .site-footer .footer-subscribe p {
+      margin-bottom: 1rem;
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 0.95rem; }
+    .site-footer .footer-subscribe .form-group {
+      display: flex;
+      width: 100%;
+      margin: 0 auto; }
+      .site-footer .footer-subscribe .form-group input {
+        flex-grow: 1;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px 0 0 4px;
+        font-size: 0.9rem; }
+      .site-footer .footer-subscribe .form-group button {
+        background-color: #3498db;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 0 4px 4px 0;
+        cursor: pointer;
+        font-weight: 500;
+        transition: background-color 0.3s ease; }
+        .site-footer .footer-subscribe .form-group button:hover {
+          background-color: #2980b9; }
   .site-footer .social-links {
     display: flex;
-    gap: 1rem;
     justify-content: center;
-    margin: 1rem 0; }
-    .site-footer .social-links a {
+    gap: 1.5rem;
+    margin: 1rem 0;
+    width: auto; }
+    .site-footer .social-links .social-link {
       color: white;
       text-decoration: none;
-      padding: 0.5rem;
+      font-size: 1.5rem;
+      width: 40px;
+      height: 40px;
       border-radius: 50%;
       background: rgba(255, 255, 255, 0.1);
-      transition: background 0.2s ease; }
-      .site-footer .social-links a:hover {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.3s ease; }
+      .site-footer .social-links .social-link:hover {
         background: rgba(255, 255, 255, 0.2); }
+  .site-footer .credits {
+    margin-top: 1.5rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.9rem; }
 
+@media (max-width: 680px) {
+  .site-footer {
+    padding: 2rem 0; }
+    .site-footer .footer-subscribe {
+      max-width: 100%; }
+      .site-footer .footer-subscribe .form-group {
+        flex-direction: column; }
+        .site-footer .footer-subscribe .form-group input {
+          border-radius: 4px;
+          margin-bottom: 0.5rem;
+          width: 100%; }
+        .site-footer .footer-subscribe .form-group button {
+          border-radius: 4px;
+          width: 100%; } }
 @media (max-width: 768px) {
   .post-list-item .post-item-content {
     flex-direction: column; }
@@ -986,3 +1049,104 @@ body {
     text-align: center;
     font-style: italic;
     color: #666; }
+
+.subscribe-button {
+  display: inline-block;
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease; }
+  .subscribe-button:hover {
+    background-color: #2980b9;
+    color: white; }
+
+.subscription-container {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  text-align: center; }
+  .subscription-container h3 {
+    margin-top: 0;
+    margin-bottom: 1rem; }
+  .subscription-container .form-group {
+    display: flex;
+    max-width: 500px;
+    margin: 1rem auto; }
+    .subscription-container .form-group input {
+      flex-grow: 1;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px 0 0 4px;
+      font-size: 1rem; }
+    .subscription-container .form-group button {
+      background-color: #3498db;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 0 4px 4px 0;
+      cursor: pointer;
+      font-weight: 500;
+      transition: background-color 0.3s ease; }
+      .subscription-container .form-group button:hover {
+        background-color: #2980b9; }
+  .subscription-container .form-footer {
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 1rem; }
+
+.floating-subscribe {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease, transform 0.3s ease; }
+  .floating-subscribe.visible {
+    opacity: 1;
+    transform: translateY(0); }
+  .floating-subscribe .floating-subscribe-content {
+    padding: 1.5rem;
+    position: relative; }
+    .floating-subscribe .floating-subscribe-content h4 {
+      margin-top: 0;
+      margin-bottom: 0.5rem; }
+    .floating-subscribe .floating-subscribe-content p {
+      margin-bottom: 1rem;
+      font-size: 0.9rem; }
+    .floating-subscribe .floating-subscribe-content .close-button {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+      color: #888; }
+      .floating-subscribe .floating-subscribe-content .close-button:hover {
+        color: #333; }
+    .floating-subscribe .floating-subscribe-content .form-group {
+      display: flex; }
+      .floating-subscribe .floating-subscribe-content .form-group input {
+        flex-grow: 1;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px 0 0 4px;
+        font-size: 0.9rem; }
+      .floating-subscribe .floating-subscribe-content .form-group button {
+        background-color: #3498db;
+        color: white;
+        border: none;
+        padding: 8px 15px;
+        border-radius: 0 4px 4px 0;
+        cursor: pointer; }
+        .floating-subscribe .floating-subscribe-content .form-group button:hover {
+          background-color: #2980b9; }

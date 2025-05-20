@@ -9,9 +9,9 @@
   <meta name="description" content="One of my favorite pastimes is etymology, the study of the origin of words, that usually leads me to a Latin and historical rabbit-hole that I enjoy. Caveat ...">
 
   
-  <link rel="stylesheet" href="/assets/styles/core.css?v=20250519211433">
-  <link rel="stylesheet" href="/assets/styles/fontello.css?v=20250519211433">
-  <link rel="stylesheet" href="/assets/styles/highlighting/autumn.css?v=20250519211433">
+  <link rel="stylesheet" href="/assets/styles/core.css?v=20250520090928">
+  <link rel="stylesheet" href="/assets/styles/fontello.css?v=20250520090928">
+  <link rel="stylesheet" href="/assets/styles/highlighting/autumn.css?v=20250520090928">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
@@ -164,13 +164,22 @@ The Ubers, Grubhubs and Amazons of the world provide us with services and produc
 <div class="subscription-container">
   <h3>Subscribe to my blog</h3>
   <p>Get new posts delivered directly to your inbox.</p>
-  <form action="https://saoudkhalifah.substack.com/subscribe" method="post" target="_blank">
+  
+  
+  <!-- Standard form for other providers -->
+  <form action="https://saoudkhalifah.substack.com/api/v1/free?nojs=true" method="post" target="_blank">
+    
+    <input type="hidden" name="first_url" value="https://saoudkhalifah.com">
+    <input type="hidden" name="current_url" value="https://saoudkhalifah.com">
+    <input type="hidden" name="source" value="embed">
+    
     <div class="form-group">
       <input type="email" name="email" placeholder="Your email address" required>
       <button type="submit">Subscribe</button>
     </div>
     <p class="form-footer">No spam. Unsubscribe anytime.</p>
   </form>
+  
 </div>
  
 
@@ -193,25 +202,42 @@ The Ubers, Grubhubs and Amazons of the world provide us with services and produc
     <button class="close-button" onclick="closeSubscribeBox()">&times;</button>
     <h4>Enjoy this post?</h4>
     <p>Subscribe to get new content in your inbox.</p>
-    <form action="https://saoudkhalifah.substack.com/subscribe" method="post" target="_blank">
+    
+    
+    <!-- Standard form for other providers -->
+    <form action="https://saoudkhalifah.substack.com/api/v1/free?nojs=true" method="post" target="_blank">
+      
+      <input type="hidden" name="first_url" value="https://saoudkhalifah.com">
+      <input type="hidden" name="current_url" value="https://saoudkhalifah.com">
+      <input type="hidden" name="source" value="embed">
+      
       <div class="form-group">
         <input type="email" name="email" placeholder="Your email address" required>
         <button type="submit">Subscribe</button>
       </div>
     </form>
+    
   </div>
 </div>
 
 <script>
+  // Check if the subscribe box has been closed before
+  function isSubscribeBoxClosed() {
+    return document.cookie.indexOf('subscribeBoxClosed=true') !== -1;
+  }
+
   // Show the floating subscribe box after scrolling 60% of the page
   window.addEventListener('scroll', function() {
-    var scrollPosition = window.scrollY;
-    var pageHeight = document.body.scrollHeight;
-    var windowHeight = window.innerHeight;
-    var scrollPercentage = (scrollPosition / (pageHeight - windowHeight)) * 100;
-    
-    if (scrollPercentage > 60) {
-      document.getElementById('floating-subscribe').classList.add('visible');
+    // Only proceed if the user hasn't closed the box before
+    if (!isSubscribeBoxClosed()) {
+      var scrollPosition = window.scrollY;
+      var pageHeight = document.body.scrollHeight;
+      var windowHeight = window.innerHeight;
+      var scrollPercentage = (scrollPosition / (pageHeight - windowHeight)) * 100;
+      
+      if (scrollPercentage > 60) {
+        document.getElementById('floating-subscribe').classList.add('visible');
+      }
     }
   });
   
@@ -224,7 +250,7 @@ The Ubers, Grubhubs and Amazons of the world provide us with services and produc
   
   // Check if the user has previously closed the box
   window.addEventListener('load', function() {
-    if (document.cookie.indexOf('subscribeBoxClosed=true') !== -1) {
+    if (isSubscribeBoxClosed()) {
       document.getElementById('floating-subscribe').style.display = 'none';
     }
   });
@@ -250,24 +276,43 @@ The Ubers, Grubhubs and Amazons of the world provide us with services and produc
 </main>
 
 <footer class="site-footer">
-
     <div class="wrapper">
-        <div class="social-links">
-            <a class="social-link " href="https://www.linkedin.com/in/saoud-khalifah/">
-                <i class="icon-linkedin"></i>
-            </a>
-            <a class="social-link " href="https://www.twitter.com/SaoudKhalifah">
-                <i class="icon-twitter"></i>
-            </a>
-            <a class="social-link social-rss" href="/feed.xml" target="_blank">
-            <i class="icon-rss"></i>
-            </a>
-        </div>
-        <div class="credits">
-            2025 © Saoud Khalifah
+        <div class="footer-content">
+            
+            <div class="footer-subscribe">
+                <h4>Stay Updated</h4>
+                <p>Subscribe to get the latest posts and updates.</p>
+                <form action="https://saoudkhalifah.substack.com/api/v1/free?nojs=true" method="post" target="_blank">
+                    
+                    <input type="hidden" name="first_url" value="https://saoudkhalifah.com">
+                    <input type="hidden" name="current_url" value="https://saoudkhalifah.com">
+                    <input type="hidden" name="source" value="footer">
+                    
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your email address" required>
+                        <button type="submit">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+            
+            
+            <div class="social-links">
+                <a class="social-link" href="https://www.linkedin.com/in/saoud-khalifah/" aria-label="LinkedIn">
+                    <i class="icon-linkedin"></i>
+                </a>
+                <a class="social-link" href="https://www.twitter.com/SaoudKhalifah" aria-label="Twitter">
+                    <i class="icon-twitter"></i>
+                </a>
+                <a class="social-link social-rss" href="/feed.xml" target="_blank" aria-label="RSS Feed">
+                    <i class="icon-rss"></i>
+                </a>
+            </div>
+            
+            <div class="credits">
+                2025 © Saoud Khalifah
+            </div>
         </div>
     </div>
-
 </footer>
 
 
