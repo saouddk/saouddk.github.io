@@ -2,7 +2,7 @@
 layout: post
 title: Dialectic, Philosophy and AI
 date: 2025-05-19
-description: 
+description: What if the future of AI lies in the past?
 cover_url: sk_socrates.png
 published: true
 permalink: /:year/:month/:day/dialectic-philosophy-and-ai
