@@ -1,20 +1,39 @@
 <footer class="site-footer">
-
     <div class="wrapper">
-        <div class="social-links">
-            <a class="social-link " href="https://www.linkedin.com/in/saoud-khalifah/">
-                <i class="icon-linkedin"></i>
-            </a>
-            <a class="social-link " href="https://www.twitter.com/SaoudKhalifah">
-                <i class="icon-twitter"></i>
-            </a>
-            <a class="social-link social-rss" href="{{ "/feed.xml" | relative_url  }}" target="_blank">
-            <i class="icon-rss"></i>
-            </a>
-        </div>
-        <div class="credits">
-            {{ site.time | date: '%Y' }} © Saoud Khalifah
+        <div class="footer-content">
+            {% if site.newsletter.enabled %}
+            <div class="footer-subscribe">
+                <h4>Stay Updated</h4>
+                <p>Subscribe to get the latest posts and updates.</p>
+                <form action="{{ site.newsletter.form_action }}" method="post" target="_blank">
+                    {% if site.newsletter.provider == "substack" %}
+                    <input type="hidden" name="first_url" value="{{ site.url }}">
+                    <input type="hidden" name="current_url" value="{{ site.url }}">
+                    <input type="hidden" name="source" value="footer">
+                    {% endif %}
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your email address" required>
+                        <button type="submit">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+            {% endif %}
+            
+            <div class="social-links">
+                <a class="social-link" href="https://www.linkedin.com/in/saoud-khalifah/" aria-label="LinkedIn">
+                    <i class="icon-linkedin"></i>
+                </a>
+                <a class="social-link" href="https://www.twitter.com/SaoudKhalifah" aria-label="Twitter">
+                    <i class="icon-twitter"></i>
+                </a>
+                <a class="social-link social-rss" href="{{ "/feed.xml" | relative_url }}" target="_blank" aria-label="RSS Feed">
+                    <i class="icon-rss"></i>
+                </a>
+            </div>
+            
+            <div class="credits">
+                {{ site.time | date: '%Y' }} © Saoud Khalifah
+            </div>
         </div>
     </div>
-
 </footer>

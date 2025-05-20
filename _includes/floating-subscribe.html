@@ -4,25 +4,45 @@
     <button class="close-button" onclick="closeSubscribeBox()">&times;</button>
     <h4>Enjoy this post?</h4>
     <p>Subscribe to get new content in your inbox.</p>
+    
+    {% if site.newsletter.provider == "mailto" %}
+    <!-- Simple mailto link for subscription -->
+    <a href="{{ site.newsletter.form_action }}" class="subscribe-button">Subscribe via Email</a>
+    {% else %}
+    <!-- Standard form for other providers -->
     <form action="{{ site.newsletter.form_action }}" method="post" target="_blank">
+      {% if site.newsletter.provider == "substack" %}
+      <input type="hidden" name="first_url" value="{{ site.url }}">
+      <input type="hidden" name="current_url" value="{{ site.url }}">
+      <input type="hidden" name="source" value="embed">
+      {% endif %}
       <div class="form-group">
         <input type="email" name="email" placeholder="Your email address" required>
         <button type="submit">Subscribe</button>
       </div>
     </form>
+    {% endif %}
   </div>
 </div>
 
 <script>
+  // Check if the subscribe box has been closed before
+  function isSubscribeBoxClosed() {
+    return document.cookie.indexOf('subscribeBoxClosed=true') !== -1;
+  }
+
   // Show the floating subscribe box after scrolling 60% of the page
   window.addEventListener('scroll', function() {
-    var scrollPosition = window.scrollY;
-    var pageHeight = document.body.scrollHeight;
-    var windowHeight = window.innerHeight;
-    var scrollPercentage = (scrollPosition / (pageHeight - windowHeight)) * 100;
-    
-    if (scrollPercentage > 60) {
-      document.getElementById('floating-subscribe').classList.add('visible');
+    // Only proceed if the user hasn't closed the box before
+    if (!isSubscribeBoxClosed()) {
+      var scrollPosition = window.scrollY;
+      var pageHeight = document.body.scrollHeight;
+      var windowHeight = window.innerHeight;
+      var scrollPercentage = (scrollPosition / (pageHeight - windowHeight)) * 100;
+      
+      if (scrollPercentage > 60) {
+        document.getElementById('floating-subscribe').classList.add('visible');
+      }
     }
   });
   
@@ -35,7 +55,7 @@
   
   // Check if the user has previously closed the box
   window.addEventListener('load', function() {
-    if (document.cookie.indexOf('subscribeBoxClosed=true') !== -1) {
+    if (isSubscribeBoxClosed()) {
       document.getElementById('floating-subscribe').style.display = 'none';
     }
   });

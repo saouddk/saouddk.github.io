@@ -3,12 +3,25 @@
 <div class="subscription-container">
   <h3>{{ site.newsletter.title }}</h3>
   <p>{{ site.newsletter.description }}</p>
+  
+  {% if site.newsletter.provider == "mailto" %}
+  <!-- Simple mailto link for subscription -->
+  <a href="{{ site.newsletter.form_action }}" class="subscribe-button">Subscribe via Email</a>
+  <p class="form-footer">No spam. Unsubscribe anytime.</p>
+  {% else %}
+  <!-- Standard form for other providers -->
   <form action="{{ site.newsletter.form_action }}" method="post" target="_blank">
+    {% if site.newsletter.provider == "substack" %}
+    <input type="hidden" name="first_url" value="{{ site.url }}">
+    <input type="hidden" name="current_url" value="{{ site.url }}">
+    <input type="hidden" name="source" value="embed">
+    {% endif %}
     <div class="form-group">
       <input type="email" name="email" placeholder="Your email address" required>
       <button type="submit">Subscribe</button>
     </div>
     <p class="form-footer">No spam. Unsubscribe anytime.</p>
   </form>
+  {% endif %}
 </div>
 {% endif %} 

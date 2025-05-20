@@ -29,7 +29,7 @@ google_analytics: UA-146489278-1
 newsletter:
   enabled: true
   provider: "substack" # Options: mailchimp, convertkit, substack, buttondown, etc.
-  form_action: "https://saoudkhalifah.substack.com/subscribe" # Replace with your actual form action URL
+  form_action: "https://saoudkhalifah.substack.com/api/v1/free?nojs=true" # Correct Substack API endpoint
   title: "Subscribe to my blog"
   description: "Get new posts delivered directly to your inbox."
   success_message: "Thanks for subscribing!"
