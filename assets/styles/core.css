@@ -376,7 +376,28 @@ article h1 + *, article h1 + .aside + *, article h1 + .sidenote + *, article h2 
 
 .site-footer {
   padding-top: 32px;
-  padding-bottom: 32px; }
+  padding-bottom: 32px;
+  background-color: #e8ecf0;
+  color: #333; }
+  .site-footer h4, .site-footer p, .site-footer a {
+    color: #333; }
+  .site-footer .form-group input[type="email"] {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #333; }
+    .site-footer .form-group input[type="email"]::placeholder {
+      color: #666; }
+  .site-footer .form-group button {
+    background-color: #333;
+    color: #fff; }
+    .site-footer .form-group button:hover {
+      background-color: #555; }
+  .site-footer .social-links .social-link {
+    color: #333; }
+    .site-footer .social-links .social-link:hover {
+      color: #555; }
+  .site-footer .credits {
+    color: #666; }
 
 .site-footer .wrapper {
   display: flex;
@@ -416,6 +437,53 @@ figcaption {
     margin: 0;
     padding: 0; }
 
+.site-branding {
+  display: flex;
+  align-items: center;
+  gap: 12px; }
+  .site-branding .site-logo {
+    height: 40px;
+    width: auto;
+    object-fit: contain; }
+  .site-branding a {
+    display: block;
+    line-height: 0; }
+
+.footer-logo {
+  text-align: center;
+  margin-bottom: 1.5em; }
+  .footer-logo .footer-logo-img {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+    opacity: 0.9; }
+
+.site-header {
+  background-color: #e8ecf0;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ddd; }
+  .site-header .header-container {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0 16px; }
+  .site-header .header-content .site-description {
+    color: #666;
+    margin: 0.5rem 0 0 0; }
+  .site-header .header-content .post-title {
+    color: #333;
+    margin: 0.5rem 0 0 0; }
+  .site-header .profile-image img {
+    border: 2px solid #ddd; }
+
+@media screen and (max-width: 600px) {
+  .site-branding .site-logo {
+    height: 32px; }
+
+  .footer-logo .footer-logo-img {
+    height: 40px; }
+
+  .site-header .header-container {
+    padding: 0 16px; } }
 [lang^="en"] {
   line-height: 1.6;
   font-family: "Open Sans", "Crimson Text", serif, "Kagami Emoji"; }
@@ -670,7 +738,7 @@ body {
   flex-direction: column; }
 
 .site-header {
-  background: linear-gradient(to right, #000000, #4c5c7d);
+  background-color: #e8ecf0;
   padding: 2rem 0;
   margin: 0;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -685,7 +753,7 @@ body {
     left: 0;
     right: 0;
     height: 4px;
-    background: linear-gradient(to right, #000000, #4c5c7d); }
+    background-color: #e8ecf0; }
   .site-header .header-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -704,24 +772,24 @@ body {
       width: 55px;
       height: 55px;
       border-radius: 50%;
-      border: 2px solid rgba(255, 255, 255, 0.7);
+      border: 2px solid #ddd;
       transition: all 0.3s ease;
       object-fit: cover; }
       .site-header .profile-image img:hover {
         transform: scale(1.05);
-        border-color: white;
-        box-shadow: 0 0 12px rgba(255, 255, 255, 0.3); }
+        border-color: #999;
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.1); }
   .site-header .site-title {
     font-size: 2.8rem;
     font-weight: 700;
-    color: white;
+    color: #333;
     text-decoration: none;
     letter-spacing: -0.5px;
     position: relative;
     display: inline-block;
     margin-bottom: 0.5rem; }
     .site-header .site-title:hover {
-      color: rgba(255, 255, 255, 0.9); }
+      color: #555; }
     .site-header .site-title:after {
       content: "";
       position: absolute;
@@ -729,9 +797,9 @@ body {
       left: 0;
       width: 40px;
       height: 3px;
-      background-color: rgba(255, 255, 255, 0.6); }
+      background-color: #666; }
   .site-header .site-description {
-    color: rgba(255, 255, 255, 0.8);
+    color: #666;
     font-size: 1.2rem;
     margin-top: 0.5rem;
     max-width: 600px; }
@@ -939,8 +1007,8 @@ body {
         .site-nav .nav-item a:after {
           display: none; } }
 .site-footer {
-  background: #2c3e50;
-  color: white;
+  background-color: #e8ecf0;
+  color: #333;
   padding: 3rem 0;
   margin-top: 4rem; }
   .site-footer .wrapper {
@@ -961,10 +1029,10 @@ body {
       font-size: 1.3rem;
       margin-top: 0;
       margin-bottom: 0.5rem;
-      color: white; }
+      color: #333; }
     .site-footer .footer-subscribe p {
       margin-bottom: 1rem;
-      color: rgba(255, 255, 255, 0.8);
+      color: #666;
       font-size: 0.95rem; }
     .site-footer .footer-subscribe .form-group {
       display: flex;
@@ -973,11 +1041,14 @@ body {
       .site-footer .footer-subscribe .form-group input {
         flex-grow: 1;
         padding: 10px 15px;
-        border: none;
+        border: 1px solid #ccc;
         border-radius: 4px 0 0 4px;
-        font-size: 0.9rem; }
+        font-size: 0.9rem;
+        color: #333; }
+        .site-footer .footer-subscribe .form-group input::placeholder {
+          color: #999; }
       .site-footer .footer-subscribe .form-group button {
-        background-color: #3498db;
+        background-color: #333;
         color: white;
         border: none;
         padding: 10px 20px;
@@ -986,7 +1057,7 @@ body {
         font-weight: 500;
         transition: background-color 0.3s ease; }
         .site-footer .footer-subscribe .form-group button:hover {
-          background-color: #2980b9; }
+          background-color: #555; }
   .site-footer .social-links {
     display: flex;
     justify-content: center;
@@ -994,22 +1065,22 @@ body {
     margin: 1rem 0;
     width: auto; }
     .site-footer .social-links .social-link {
-      color: white;
+      color: #333;
       text-decoration: none;
       font-size: 1.5rem;
       width: 40px;
       height: 40px;
       border-radius: 50%;
-      background: rgba(255, 255, 255, 0.1);
+      background: rgba(0, 0, 0, 0.1);
       display: flex;
       align-items: center;
       justify-content: center;
       transition: background 0.3s ease; }
       .site-footer .social-links .social-link:hover {
-        background: rgba(255, 255, 255, 0.2); }
+        background: rgba(0, 0, 0, 0.2); }
   .site-footer .credits {
     margin-top: 1.5rem;
-    color: rgba(255, 255, 255, 0.6);
+    color: #666;
     font-size: 0.9rem; }
 
 @media (max-width: 680px) {
