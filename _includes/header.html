@@ -1,7 +1,11 @@
 <header class="site-header">
   <div class="header-container">
     <div class="header-content">
-      <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+      <div class="site-branding">
+        <a href="{{ "/" | relative_url }}">
+          <img src="/assets/img/sklogo.png" alt="SK Logo" class="site-logo" />
+        </a>
+      </div>
       {% if page.title %}
       <h1 class="post-title baseline-fix" itemprop="name headline">{{ page.title | escape | replace: "​", "<wbr>" }}</h1>
       {% else %}

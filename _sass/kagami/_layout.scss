@@ -353,6 +353,50 @@ article {
 .site-footer {
   padding-top: $spacing-unit;
   padding-bottom: $spacing-unit;
+  background-color: #e8ecf0;
+  color: #333;
+  
+  // Ensure all text elements are dark
+  h4, p, a {
+    color: #333;
+  }
+  
+  // Style form elements for better contrast
+  .form-group {
+    input[type="email"] {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      color: #333;
+      
+      &::placeholder {
+        color: #666;
+      }
+    }
+    
+    button {
+      background-color: #333;
+      color: #fff;
+      
+      &:hover {
+        background-color: #555;
+      }
+    }
+  }
+  
+  // Social links styling
+  .social-links {
+    .social-link {
+      color: #333;
+      
+      &:hover {
+        color: #555;
+      }
+    }
+  }
+  
+  .credits {
+    color: #666;
+  }
 }
 
 .site-footer .wrapper {
@@ -396,4 +440,86 @@ figcaption {
   right: 0;
   margin: 4px 8px;
   p { margin: 0; padding: 0; }
+}
+
+// Logo styles
+.site-branding {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  
+  .site-logo {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+  }
+  
+  a {
+    display: block;
+    line-height: 0;
+  }
+}
+
+.footer-logo {
+  text-align: center;
+  margin-bottom: 1.5em;
+  
+  .footer-logo-img {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+    opacity: 0.9;
+  }
+}
+
+// Header styling
+.site-header {
+  background-color: #e8ecf0;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ddd;
+  
+  .header-container {
+    max-width: $content-width;
+    margin: 0 auto;
+    padding: 0 $content-padding;
+  }
+  
+  .header-content {
+    .site-description {
+      color: #666;
+      margin: 0.5rem 0 0 0;
+    }
+    
+    .post-title {
+      color: #333;
+      margin: 0.5rem 0 0 0;
+    }
+  }
+  
+  .profile-image {
+    img {
+      border: 2px solid #ddd;
+    }
+  }
+}
+
+// Responsive adjustments for logos
+@media screen and (max-width: 600px) {
+  .site-branding {
+    .site-logo {
+      height: 32px;
+    }
+  }
+  
+  .footer-logo {
+    .footer-logo-img {
+      height: 40px;
+    }
+  }
+  
+  .site-header {
+    .header-container {
+      padding: 0 $content-padding;
+    }
+  }
 }

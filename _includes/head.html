@@ -8,6 +8,7 @@
 
   {% assign v = site.time | date: "%Y%m%d%H%M%S" %}
   <link rel="stylesheet" href="{{ "/assets/styles/core.css?v=" | append: v | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/override.css?v=" | append: v | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/styles/fontello.css?v=" | append: v | relative_url }}">
   <link rel="stylesheet" href="{{ page.color_scheme | default: site.color_scheme | default: "default" | prepend: "/assets/styles/highlighting/" | append: ".css?v=" | append: v | relative_url }}">
 

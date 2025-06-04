@@ -1,0 +1,47 @@
+/* Header and Footer Background Override */
+.site-header {
+  background-color: #ffffff !important;
+  background: #ffffff !important;
+}
+
+.site-header .site-title {
+  color: #333 !important;
+}
+
+.site-header .site-description {
+  color: #666 !important;
+}
+
+.site-header .profile-image img {
+  border: 2px solid #ddd !important;
+}
+
+.site-footer {
+  background-color: #ebf5ff !important;
+  background: #ebf5ff !important;
+  color: #333 !important;
+}
+
+.site-footer h4,
+.site-footer p,
+.site-footer a {
+  color: #333 !important;
+}
+
+.site-footer .credits {
+  color: #666 !important;
+}
+
+.site-footer .social-link {
+  color: #333 !important;
+  background: rgba(0,0,0,0.1) !important;
+}
+
+.site-footer .form-group input {
+  border: 1px solid #ccc !important;
+  color: #333 !important;
+}
+
+.site-footer .form-group button {
+  background-color: #333 !important;
+} 
