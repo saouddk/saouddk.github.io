@@ -4,6 +4,7 @@ title: "The New Botnet: Powered by Your Personal AI Assistants"
 date: 2026-02-02
 description: The AI era is being built with an "implement first, security last" methodology.
 cover_url: openclaw_cover_post.jpg
+image: /assets/img/openclaw_cover_post.jpg
 published: true
 permalink: /:year/:month/:day/the-new-botnet-powered-by-your-personal-ai-assistants
 author: Saoud Khalifah # Add name author (optional)
