@@ -8,7 +8,6 @@ permalink: /about
 
 Welcome to my blog, where I share my thoughts as a tech entrepreneur and software creator.
 
-
 I am currently the Co-Founder, CEO and CTO at [Ciphero AI](https://ciphero.ai), where we're building the world's most powerful AI Verification Layer. Previously, I was the Founder & CEO/CTO of Fakespot (acquired by Mozilla), and before that, I worked at Goldman Sachs and was a hacker in my teens.
 
 My journey began at age 11 when my first love became programming and building software. It started with Visual Basic 6.0, creating Dragon Ball Z games for my brother and friends, then progressed to C/C++, Delphi/Pascal, Assembly, and many other languages as I sought to push the limits of what I could create.
